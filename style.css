@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper{
+  box-sizing: border-box;
+}
+.wrapper-flex{
+  display: flex;
+  justify-content: space-between;
+}
+/*header*/
+.header{
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+.header-menu{
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  margin-top: 5px;
+}
+.header-pallete{
+  width: 90%;
+  margin-top: 10px;
+}
+.header-pallete-text{
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.header-settings{
+  width: 12px;
+  height: 24px;
+  background-color: #ffffff;
+  border: none;
+  margin-top: 10px;
+}
+/*aside*/
+.tools{
+  width: 290px;
+}
+.tools-tools_list, .tools-color{
+  box-sizing: border-box;
+  width: 230px;
+  height: 246px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+  margin: 30px;
+  padding: 15px;
+}
+.tools-color{
+  width: 230px;
+  height: 246px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+  margin: 30px;
+}
+.tools-tools_list-tools_color, .tools-tools_list-tools_changes,
+ .tools-color-statuses, .tools-color-examples{
+  list-style-type: none;
+  padding: 10px;
+}
+.tools-tools_list-tool_color, .tools-tools_list-tool_change, 
+.tools-color-status, .tools-color-example{
+  display: flex;
+}
+.tools-tools_list-tool_color-text, .tools-tools_list-tool_change-text,
+.tools-color-status-text, .tools-color-example-text{
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.tools-tools_list-tool_color-fill, .tools-tools_list-tool_color-pipette,
+.tools-tools_list-tool_change-move, .tools-tools_list-tool_change-transform,
+.tools-color-status-current, .tools-color-status-prev, .tools-color-example-red,
+.tools-color-example-blue{
+  margin-right: 30px;
+}
+.tools-tools_list-tool_color, .tools-tools_list-tool_change,
+.tools-color-status, .tools-color-example{
+  margin: 15px 0px;
+}
+.tools-tools_list-separator{
+  width: 230px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.12);
+  margin-left: -15px;
+}
+/*canvas*/
+.canvas{
+  margin: 30px 14%;
+}
+.canvas-wrapper{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+.canvas-area{
+  width: 512px;
+  height: 512px;
+}

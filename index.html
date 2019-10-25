@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CodeJam Canvas</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <button class="header-menu"><img src="img/Menu.svg" alt="menu" class="header-menu-img"></button>
+      <div class="header-pallete"><h1 class="header-pallete-text">CodeJam - Pallete</h1></div>
+      <button class="header-settings"><img src="img/Settings.svg" alt="settings" class="header-settings-img"></button>
+    </header>
+    <div class="wrapper-flex">
+      <aside class="tools">
+      <div class="tools-tools_list">
+        <ul class="tools-tools_list-tools_color">
+          <li class="tools-tools_list-tool_color">
+            <img src="img/fill.svg" alt="fill" class="tools-tools_list-tool_color-fill">
+            <p class="tools-tools_list-tool_color-text">Paint bucket</p>
+          </li>
+          <li class="tools-tools_list-tool_color">
+            <img src="img/pipette.svg" alt="pipette" class="tools-tools_list-tool_color-pipette">
+            <p class="tools-tools_list-tool_color-text">Choose color</p>
+          </li>
+        </ul>
+        <div class="tools-tools_list-separator"></div>
+        <ul class="tools-tools_list-tools_changes">
+          <li class="tools-tools_list-tool_change">
+            <img src="img/move.svg" alt="move" class="tools-tools_list-tool_change-move">
+            <p class="tools-tools_list-tool_change-text">Move</p>
+          </li>
+          <li class="tools-tools_list-tool_change">
+            <img src="img/transform.svg" alt="transform" class="tools-tools_list-tool_change-transform">
+            <p class="tools-tools_list-tool_change-text">Transform</p>
+          </li>
+        </ul>
+      </div>
+      <div class="tools-color">
+        <ul class="tools-color-statuses">
+          <li class="tools-color-status">
+            <img src="img/grey.svg" alt="current" class="tools-color-status-current">
+            <p class="tools-color-status-text">Current color</p>
+          </li>
+          <li class="tools-color-status">
+            <img src="img/green.svg" alt="prev color" class="tools-color-status-prev">
+            <p class="tools-color-status-text">Prev color</p>
+          </li>
+        </ul>
+        <div class="tools-tools_list-separator"></div>
+        <ul class="tools-color-examples">
+          <li class="tools-color-example">
+            <img src="img/red.svg" alt="red" class="tools-color-example-red">
+            <p class="tools-color-example-text">red</p>
+          </li>
+          <li class="tools-color-example">
+            <img src="img/blue.svg" alt="blue" class="tools-color-example-blue">
+            <p class="tools-color-example-text">blue</p>
+          </li>
+        </ul>
+      </div>
+      </aside>
+      <main class="canvas">
+      <div class="canvas-wrapper">
+        <canvas class="canvas-area"></canvas>
+        <div class="canvas-selector"></div>
+      </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
