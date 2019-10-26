@@ -7,6 +7,8 @@
   <title>CodeJam Canvas</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="src/32x32.json"></script>
+  <script src="canvasDraw.js" defer></script>
 </head>
 <body>
   <div class="wrapper">
@@ -66,11 +68,18 @@
       </aside>
       <main class="canvas">
       <div class="canvas-wrapper">
-        <canvas class="canvas-area"></canvas>
-        <div class="canvas-selector"></div>
+        <canvas class="canvas-area" id="canvas" width="512" height="512"></canvas>
+        <div class="canvas-selector">
+            <ul class="canvas-selector-options">
+              <li class="canvas-selector-options-4" id="draw4x4">Draw 4x4</li>
+              <li class="canvas-selector-options-32" id="draw32x32">Draw 32x32</li>
+              <li class="canvas-selector-options-image" id="drawImage">Draw image</li>
+            </ul>
+          </div>
       </div>
       </main>
     </div>
   </div>
+
 </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "name": "codejam-canvas",
+  "version": "1.0.0",
+  "description": "answer for task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glukogall/codejam-canvas.git"
+  },
+  "author": "Glukogall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glukogall/codejam-canvas/issues"
+  },
+  "homepage": "https://github.com/Glukogall/codejam-canvas#readme"
+}

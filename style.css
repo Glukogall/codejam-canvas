@@ -92,12 +92,28 @@
 }
 /*canvas*/
 .canvas{
-  margin: 30px 14%;
+  margin: 30px 5%;
 }
 .canvas-wrapper{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+  display: flex;
 }
 .canvas-area{
   width: 512px;
   height: 512px;
+}
+/*canvas separator*/
+.canvas-selector{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+  width: 115px;
+}
+.canvas-selector-options{
+  list-style-type: none;
+}
+.canvas-selector-options-4, .canvas-selector-options-32,
+.canvas-selector-options-image{
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 25px 10px;
+  cursor: pointer;
 }
